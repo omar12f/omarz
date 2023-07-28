@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+
+
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.567);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+p > a {
+  color: rgba(0, 0, 0, 0.567);
+}
+a {
+  color: red;
+}
+.logo > a::first-letter {
+  color: red;
+  font-size: 3rem;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.567);
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  width: 30%;
+}
+header > nav {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+header > nav > a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.632);
+  text-decoration: none;
+  padding: 0px 30px;
+}
+header > nav > a:hover {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, red, black 60%);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.content-header {
+  width: 100%;
+  background-image: linear-gradient(to right, red, black 60%);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+ 
+  padding: 200px;
+  height: 100vh;
+}
+.content-header:hover {
+  background-image: linear-gradient(to right, red, rgb(255, 253, 253) 60%);
+}
+.main-bage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content-header > img {
+  border-radius: 20px;
+  min-width: 40%;
+  max-width: 33vh;
+  border: 5px solid rgb(0, 0, 0);
+}
+.content-header > img:hover {
+  box-shadow: 10px 10px 10px 10px rgb(255, 0, 0);
+  border: none;
+}
+.content-heade > div {
+  max-width: auto;
+  min-width: 200px;
+  line-height: 20px;
+}
+.content-heade > div > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+
+  color: black;
+  font-weight: 600;
+  width: auto;
+}
+button > a {
+  color: #fff;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  font-size: 1.3rem;
+
+  background-color: rgba(0, 0, 0, 0.635);
+}
+span {
+  font-size: 4rem;
+  color: rgb(48, 138, 138);
+  font-weight: 600;
+  width: auto;
+}
+.h3 {
+  font-size: 2.5rem;
+
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.social-icons {
+  padding: 10px 0px;
+}
+.fab {
+  font-size: 2rem;
+  margin-left: 5px;
+}
+.services,
+.contact-me {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 0rem 1rem;
+
+  gap: 50px;
+}
+.contact-me{
+  padding-bottom: 7rem;
+}
+
+.card-contact:hover,.card-main:hover{
+  transform: scale(1.1);
+
+}
+.card-main,
+.card-contact {
+  width: 35%;
+  padding: 25px;
+  box-shadow: 10px 10px 10px 10px black;
+  border-radius: 10px;
+transition: .7s;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  min-width: 289px;
+}
+.card> h3 {
+
+  line-height: 2;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-conten > p {
+  line-height: 1.5;
+}
+
+.icon {
+  
+  color: rgb(255, 0, 0);
+ 
+}
+.fas{font-size: 5.5rem; 
+  line-height: 1.5;}
+
+
+.content-my-work {
+  height: 80%;
+  width: 80%;
+  box-shadow: 10px 10px 10px 10px black;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+ 
+  align-content: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.card-services {
+  min-width: 286px;
+  height: 264px;
+  background-color: black;
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px #fff;
+}
+.my-work {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  
+}
+h3.phone, h3.email {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.numper{
+  font-size: 2rem;
+}
+.gmail{
+  font-size: 1.5rem;
+}
+footer {
+  height: 50px;
+  background-image: linear-gradient(to right, red, black 60%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.footer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover{
+  color: black;
+}
+.titel{
+  display: flex;
+  justify-content: center;
+align-items: center;
+width: 100%;
+padding-top: 7rem;
+padding-bottom: 3rem;
+font-size: 2rem;
+font-weight: 800;
+
+}
+.titel>p::first-letter{
+  color: red;
+  font-size: 2.7rem;
+}
+@media (min-width: 676px) and (max-width: 903px) {
+  .content-my-work {
+    width: 90%;
+  }
+}
+@media (min-width: 681px) and (max-width: 803px) {
+  .content-my-work {
+    width: 98%;
+  }
+  .card-3 {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  h3,
+  span,
+  .content-heade > div > h2 {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 743px) {
+  .content-header {
+    flex-direction: column-reverse;
+    padding: 80px 20px;
+    display: flex;
+    height: 110vh;
+    padding-bottom: 0px;
+  }
+
+  .content-my-work {
+
+    height: auto;
+  }
+  .card-services {
+    width: 286px;
+  }
+}
+
+
+@media (max-width: 681px) {
+  .services {
+    flex-direction: column;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+  }
+  .logo > a::first-letter {
+    font-size: 2.7rem;
+  }
+  .main-bage{
+
+  
+  height: 120vh;}
+
+@media (max-width: 410px) {
+  h3,
+  span,
+  .content-heade > div > h2 {
+    font-size: 160%;
+  }
+  .content-header {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    height: 130vh;
+  }
+  .logo > a::first-letter {
+    font-size: 1.7rem;
+  }
+  .content-my-work {
+    flex-grow: 1;
+    background-color: #fff;
+    box-shadow: none;
+  }
+  .services {
+    padding-bottom: 3rem;
+  }
+ 
+  .card-services {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px black;
+  }
+}
+
